@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table base</title>
+</head>
+<body>
+    <table border="1px"> <!--属性边缘=1像素，以后可以用CSS-->
+        <thead><!--表头-->
+            <tr><!--表格的行 tr -->
+                <th>NAME</th><!--标题单元格，它会自动居中-->
+                <th>SEX</th>
+                <th>GRADE</th>
+            </tr>
+        </thead>
+        <tbody><!--表格的内容-->
+            <tr>
+                <td>Jane</td><!--一般单元格 td-->
+                <td>Women</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Lee</td>
+                <td>Man</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Tom</td>
+                <td>Man</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Mery</td>
+                <td>Women</td>
+                <td>99</td>
+            </tr>
+        </tbody>
+        <tfoot><!--表脚-->
+            <td>f1</td>
+            <td colspan="2">f2 f3</td><!--合并行单元格 colspan="单元格数目" （列单元格 rowspan）-->
+        </tfoot>
+    </table>
+</body>
+</html>
